@@ -5,20 +5,27 @@
 	    <title>Muusika</title>
 	    <script src="javascript/main.js" defer></script>
 	    <script src="javascript/index.js" defer></script>
-	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	    <link rel="stylesheet" type="text/css" href="css/muusika.css">
 	</head>
 	<body>
-		<img class="headerbg" src="css/pildid/bandcampheader.png" alt="pilt">
+		<img class="headertaust" src="css/pildid/bandcampheader.png" alt="pilt">
 
 		<div class="muusika-mangija">
-			<audio controls>
-				<source src="muusika/heart-pa.mp3" type="audio/mpeg">
-			</audio>
-			<audio controls>
-				<source src="muusika/sister-to-sister.mp3" type="audio/mpeg">
-			</audio>
+			<div id=laulu-info>
+				<div class="album-cover"></div>
+				<div class="laulu-tiitel"></div>
+			</div>
+			<div class="ajatempel">
+				<div id="baar"></div>
+				<div id="aeg-prg"></div>
+			</div>
+			<div class="nuppud">
+				<div class="start-stop-nupp"><i class="fas fa-play"></i></div>
+				<div class="jargmine-nupp"><i class="fas fa-step-forward"></i></div>
+				<div class="eelmine-nupp"><i class="fas fa-step-backward"></i></div>
+			</div>
 		</div>
 
-		<script src "javascript/muusika.js"></script>
+		<script src="javascript/muusika.js"></script>
 	</body>
 </html>

@@ -1,0 +1,86 @@
+body, html {
+	background-image: url("pildid/bandcampbg.jpg");
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.headertaust {
+
+}
+.muusika-mangija {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.laulu-tiitel {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.album-cover {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    background: url('../css/pildid/pearlname.jpg') no-repeat center center;
+    background-size: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ajatempel {
+    position: relative;
+    height: 5px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+#aeg-prg {
+    height: 100%;
+    width: 0;
+    background: #ff3b3b;
+    transition: width 0.2s;
+}
+
+.nuppud {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nuppud div {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+}
+
+.nuppud div:hover {
+    background: #ff3b3b;
+}
+
+.nuppud i {
+    color: #555;
+    font-size: 16px;
+}
+
+.nuppud div:hover i {
+    color: #fff;
+}
+
