@@ -1,0 +1,27 @@
+body, html {
+	background-image: url("pildid/bandcampbg.jpg");
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.headerbg {
+
+}
+
+
+.muusika-mangija {
+	background-color: black;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 20px;
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+audio {
+}
