@@ -7,33 +7,53 @@ body, html {
 	align-items: center;
 }
 
+.link-kast {
+        display: flex;
+        gap: 20px;
+}
+
+h2 { 
+        color: #d521da;
+}
+
+h2 a {
+        color: #d521da;
+        text-decoration: none;
+        transition: color 0.5s;
+}
+
+h2 a:hover {
+        text-decoration: none;
+        color: #10d5d8;
+}
+
 .headertaust {
 
 }
 .muusika-mangija {
-    width: 300px;
-    margin: 20px auto;
-    padding: 20px;
+    width: 400px;
+    margin: 10px auto;
+    padding: 0px 0px 0px 0px;
     background-color: #f5f5f5;
-    border-radius: 20px;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional for a light shadow effect */
+}
+
+.album-cover {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto 15px; /* Margin to separate from the next element */
+    background: url('pildid/pearlname.jpg') no-repeat center center;
+    background-size: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow directly on the cover */
 }
 
 .laulu-tiitel {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
-}
-
-.album-cover {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto 10px;
-    border-radius: 50%;
-    background: url('../css/pildid/pearlname.jpg') no-repeat center center;
-    background-size: cover;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #555;
 }
 
 .ajatempel {
@@ -42,7 +62,8 @@ body, html {
     background: #ddd;
     border-radius: 5px;
     overflow: hidden;
-    margin: 15px 0;
+    margin: 10px;
+    width: 80%; /* Controls the width of the progress bar */
 }
 
 #aeg-prg {
@@ -56,6 +77,7 @@ body, html {
     display: flex;
     justify-content: center;
     gap: 15px;
+    margin-top: 10px;
 }
 
 .nuppud div {
@@ -68,16 +90,17 @@ body, html {
     justify-content: center;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.2s;
 }
 
 .nuppud div:hover {
     background: #ff3b3b;
+    transform: scale(1.1);
 }
 
 .nuppud i {
     color: #555;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .nuppud div:hover i {
