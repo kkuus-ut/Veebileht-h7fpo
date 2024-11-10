@@ -1,49 +1,51 @@
-<!DOCTYPE html
-<html>
-	<head>
-	    <meta charset="UTF-8">
-	    <title>Muusika</title>
-	    <script src="javascript/main.js" defer></script>
-	    <script src="javascript/index.js" defer></script>
-	    <link rel="stylesheet" type="text/css" href="css/muusika.css">
-		<link rel="stylesheet" type="text/css" href="css/index.css">
-	</head>
-	<body>
-		<img class="headertaust" src="css/pildid/bandcampheader.png" alt="pilt">
+<!DOCTYPE html>
+<html lang="et">
 
+<head>
+	<meta charset="UTF-8">
+	<title>Muusika</title>
+	<script src="javascript/main.js" defer></script>
+	<script src="javascript/index.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="css/muusika.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<header>
+		<h1 class="header_nimi">suri</h1>
 		<div class="link-kast">
-			<h2><a href="index.html">Avaleht</a></h2>   
-			<h2><a href="muusika.html">Muusika</a></h2>
-			<h2><a href="info.html">Info</a></h2>
+			<h2><a href="index.html">Avaleht</a></h2>
+		  <h2 id="aktiivne_leht">Muusika</h2>
+		  <h2><a href="info.html">Info</a></h2>
 		</div>
-
-		<div class="muusika-mangija">
-		    <div class="album-cover"></div>
-		    <div id="laulu-info">
+	</header>
+	<div class="muusika-mangija">
+		<div class="album-cover"></div>
+		<div id="laulu-info">
 			<div class="laulu-tiitel"></div>
-		    </div>
-		    <div class="ajatempel">
+		</div>
+		<div class="ajatempel">
 			<div id="baar"></div>
 			<div id="aeg-prg"></div>
-		    </div>
-		    <div class="nuppud">
+		</div>
+		<div class="nuppud">
 			<div class="start-stop-nupp"><i class="fas fa-play"></i></div>
 			<div class="jargmine-nupp"><i class="fas fa-step-forward"></i></div>
 			<div class="eelmine-nupp"><i class="fas fa-step-backward"></i></div>
-		    </div>
 		</div>
+	</div>
 
 
-		<script src="javascript/muusika.js"></script>
-	</body>
+	<script src="javascript/muusika.js"></script>
 	<footer>
-			<ul class="icon_bar">
-				<li>
-					<a href="https://suriunderscore.bandcamp.com" class="icon"><img src="css/pildid/bandcamp.png" alt="bandcamp" width="60" height="60"></a>
-				</li>
-				<li>
-					<a href="https://rateyourmusic.com/artist/suri-1" class="icon"><img src="css/pildid/rateyourmusic.png" alt="rateyourmusic" width="60" height="60"></a>
-				</li>
-			</ul>
-	</footer>
+        <ul class="icon_bar">
+            <li>
+                <a href="https://suriunderscore.bandcamp.com" class="icon"><img src="css/pildid/bandcamp.png" alt="bandcamp" width="60" height="60"></a>
+            </li>
+            <li>
+                <a href="https://rateyourmusic.com/artist/suri-1" class="icon"><img src="css/pildid/rateyourmusic.png" alt="rateyourmusic" width="60" height="60"></a>
+            </li>
+        </ul>
+</footer>
+</body>
+
 </html>

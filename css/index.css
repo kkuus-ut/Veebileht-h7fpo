@@ -1,4 +1,4 @@
-body, html , footer{
+body, footer{
 	background-image: url("pildid/bandcampbg.jpg");
 	background-attachment: fixed;
 	margin: 0;
@@ -16,6 +16,7 @@ h1 {
 .link-kast {
 	display: flex;
 	gap: 20px;
+	justify-content: center;
 }
 
 h2 {
@@ -61,10 +62,21 @@ footer {
 	padding: 10px 0;
 }
 
-head {
-	background-image:url("css/pildid/bandcampheader.png");
+header {
+	background-image: url('pildid/bandcampheader.png');
 	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 200px; 
+	background-position: center;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+}
+
+.header_nimi {
+	font-size: 60px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+}
+
+#aktiivne_leht {
+	color: purple;
 }
