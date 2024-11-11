@@ -9,7 +9,7 @@ body, html {
 
 .link-kast {
         display: flex;
-        gap: 20px;
+	gap: 15px;
 }
 
 h2 { 
@@ -30,7 +30,6 @@ h2 a:hover {
 .muusika-mangija {
     width: 400px;
     margin: 10px auto;
-    padding: 0px 0px 0px 0px;
     background-color: #f5f5f5;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -63,7 +62,7 @@ h2 a:hover {
     width: 80%;
 }
 
-#aeg-prg {
+.aeg-prg {
     height: 100%;
     width: 0;
     background: #ff3b3b;
@@ -73,7 +72,7 @@ h2 a:hover {
 .nuppud {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     margin-top: 10px;
 }
 
