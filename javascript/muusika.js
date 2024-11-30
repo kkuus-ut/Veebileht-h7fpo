@@ -42,13 +42,13 @@ class MuusikaMangijaFN{
 
     playSong() {
         this.isPlaying = true;
-        this.mangPauseBtn.textContent = 'Pause';
+        this.mangPauseBtn.textContent = '⏸';
         this.heli.play();
     }
 
     pauseSong() {
         this.isPlaying = false;
-        this.mangPauseBtn.textContent = 'Play';
+        this.mangPauseBtn.textContent = '⏵';
         this.heli.pause();
     }
 

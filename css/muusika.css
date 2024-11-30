@@ -1,95 +1,109 @@
 body, html {
-	background-image: url("pildid/bandcampbg.jpg");
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.link-kast {
-        display: flex;
-	gap: 15px;
-}
-
-h2 { 
-        color: #d521da;
-}
-
-h2 a {
-        color: #d521da;
-        text-decoration: none;
-        transition: color 0.5s;
-}
-
-h2 a:hover {
-        text-decoration: none;
-        color: #10d5d8;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-}
-
-.muusika-konteiner {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("pildid/bandcampbg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 h1 {
     text-align: center;
     color: #333;
+    margin: 20px 0;
+}
+
+.link-kast {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #d521da;
+}
+
+h2 a {
+    color: #d521da;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+h2 a:hover {
+    color: #10d5d8;
+}
+
+.muusika-konteiner {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .muusika-mangija {
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
     margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.albumi-pilt {
+    max-width: 150px;
+    max-height: 150px;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover-pilt {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.muusika-mangija h2 {
-    margin-top: 0;
-    color: #444;
-}
-
-.laulu-info {
-    margin-bottom: 15px;
-}
-
-.laulu-tiitel {
-    font-weight: bold;
-    color: #333;
+.player-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .nuppud {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+    gap: 10px;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #d521da;
     border: none;
     color: white;
     padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 14px;
-    margin: 4px 2px;
+    border-radius: 5px;
     cursor: pointer;
-    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #10d5d8;
 }
 
 .edenemis-konteiner {
@@ -99,15 +113,16 @@ button:hover {
 .edenemis-riba {
     width: 100%;
     height: 5px;
-    background: #ddd;
+    border-radius: 2.5px;
+    background: linear-gradient(to right, #d521da, #10d5d8);
     outline: none;
     cursor: pointer;
-    border-radius: 50%;
-    opacity: 0.7;
-    transition: opacity .2s;
+    opacity: 0.8;
+    transition: background 0.2s, opacity 0.2s;
 }
 
 .edenemis-riba:hover {
+    background: linear-gradient(to right, #aa1aaf, #0c98a5);
     opacity: 1;
 }
 
