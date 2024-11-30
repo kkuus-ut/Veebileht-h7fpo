@@ -27,79 +27,87 @@ h2 a:hover {
         color: #10d5d8;
 }
 
-.muusika-mangija {
-    width: 400px;
-    margin: 10px auto;
-    background-color: #f5f5f5;
-    text-align: center;
+body {
     font-family: Arial, sans-serif;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-.album-cover {
-    width: 400px;
-    height: 400px;
-    margin: 0 auto 15px;
-    background: url('pildid/pearlname.jpg') no-repeat center center;
-    background-size: cover;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+.muusika-konteiner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.muusika-mangija {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.muusika-mangija h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+.laulu-info {
+    margin-bottom: 15px;
 }
 
 .laulu-tiitel {
-    font-size: 16px;
     font-weight: bold;
-    margin-bottom: 10px;
-    color: #555;
-}
-
-.ajatempel {
-    position: relative;
-    height: 5px;
-    background: #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    margin: 10px;
-    width: 80%;
-}
-
-.aeg-prg {
-    height: 100%;
-    width: 0;
-    background: #ff3b3b;
-    transition: width 0.2s;
+    color: #333;
 }
 
 .nuppud {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
 
-.nuppud div {
-    width: 40px;
-    height: 40px;
-    background: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
     cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s, transform 0.2s;
+    border-radius: 4px;
 }
 
-.nuppud div:hover {
-    background: #ff3b3b;
-    transform: scale(1.1);
+button:hover {
+    background-color: #45a049;
 }
 
-.nuppud i {
-    color: #555;
-    font-size: 18px;
+.edenemis-konteiner {
+    width: 100%;
 }
 
-.nuppud div:hover i {
-    color: #fff;
+.edenemis-riba {
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: opacity .2s;
+}
+
+.edenemis-riba:hover {
+    opacity: 1;
 }
 
