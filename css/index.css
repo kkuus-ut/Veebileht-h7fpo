@@ -24,6 +24,7 @@ h1 {
 
 h2 {
 	color: #d521da;
+	text-align: center;
 }
 
 h2 a {
@@ -39,6 +40,8 @@ h2 a:hover {
 
 p {
 	color: #d521da;
+	font-size: larger;
+	text-align: center;
 }
 
 #lehe_sisu {
