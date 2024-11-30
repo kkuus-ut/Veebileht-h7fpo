@@ -1,53 +1,11 @@
-body, html {
-	background-image: url("pildid/bandcampbg.jpg");
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.link-kast {
-        display: flex;
-	gap: 15px;
-}
-
-h2 { 
-        color: #d521da;
-}
-
-h2 a {
-        color: #d521da;
-        text-decoration: none;
-        transition: color 0.5s;
-}
-
-h2 a:hover {
-        text-decoration: none;
-        color: #10d5d8;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
 .muusika-konteiner {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-}
-
 .muusika-mangija {
-    background-color: #fff;
+    background-color: #333;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
@@ -56,7 +14,7 @@ h1 {
 
 .muusika-mangija h2 {
     margin-top: 0;
-    color: #444;
+    color: #fffefeef;
 }
 
 .laulu-info {
@@ -110,4 +68,3 @@ button:hover {
 .edenemis-riba:hover {
     opacity: 1;
 }
-

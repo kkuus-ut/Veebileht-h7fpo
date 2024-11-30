@@ -1,68 +1,72 @@
 <!DOCTYPE html>
 <html lang="et">
-	<head>
-	    <meta charset="UTF-8">
-	    <title>Muusika</title>
-	    <link rel="icon" href="favicon.ico" type="image/x-icon">
-	    <script src="javascript/main.js" defer></script>
-	    <script src="javascript/index.js" defer></script>
-	    <link rel="stylesheet" type="text/css" href="css/muusika.css">
-		<link rel="stylesheet" type="text/css" href="css/index.css">
-	</head>
-	<body>
-		<div class="lehe_nimi">
-			<h1>Suri</h1>
-		</div>
 
-		<div class="link-kast">
-			<h2><a href="index.html">Avaleht</a></h2>
-			<h2><a href="muusika.html">Muusika</a></h2>
-			<h2><a href="info.html">Info</a></h2>
-		</div>
+<head>
+	<meta charset="UTF-8">
+	<title>Muusika</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<script src="javascript/main.js" defer></script>
+	<script src="javascript/index.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="css/muusika.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
 
-		<div class="muusika-konteiner">
-			<div id="heartpartstrings" class="muusika-mangija">
-				<h2>Heart part strings</h2>
-				<div class="laulu-info">
-					<p class="laulu-tiitel"></p>
-				</div>
-				<div class="nuppud">
-					<button class="eel-nupp">Eelmine</button>
-					<button class="paus-nupp">Kuula</button>
-					<button class="jarg-nupp">Järgmine</button>
-				</div>
-				<div class="edenemis-konteiner">
-					<input type="range" class="edenemis-riba" min="0" max="100" value="0">
-				</div>
-				<audio></audio>
+<body>
+	<header>
+        <h1>Suri</h1>
+        <div class="link-kast">
+            <h2><a href="index.html">Avaleht</a></h2>
+            <h2><a href="muusika.html">Muusika</a></h2>
+            <h2><a href="info.html">Info</a></h2>
+        </div>
+    </header>
+	<div class="muusika-konteiner">
+		<div id="heartpartstrings" class="muusika-mangija">
+			<h2>Heart part strings</h2>
+			<div class="laulu-info">
+				<p class="laulu-tiitel"></p>
 			</div>
+			<div class="nuppud">
+				<button type="button" class="eel-nupp">Eelmine</button>
+				<button type="button" class="paus-nupp">Kuula</button>
+				<button type="button" class="jarg-nupp">Järgmine</button>
+			</div>
+			<div class="edenemis-konteiner">
+				<input type="range" class="edenemis-riba" min="0" max="100" value="0">
+			</div>
+			<audio></audio>
+		</div>
 
-			<div id="pearlname" class="muusika-mangija">
-                                <h2>Pearl name</h2>
-                                <div class="laulu-info">
-                                        <p class="laulu-tiitel"></p>
-                                </div>
-                                <div class="nuppud">
-                                        <button class="eel-nupp">Eelmine</button>
-                                        <button class="paus-nupp">Kuula</button>
-                                        <button class="jarg-nupp">Järgmine</button>
-                                </div>
-                                <div class="edenemis-konteiner">
-                                        <input type="range" class="edenemis-riba" min="0" max="100" value="0">
-                                </div>
-                                <audio></audio>
-                        </div>
+		<div id="pearlname" class="muusika-mangija">
+			<h2>Pearl name</h2>
+			<div class="laulu-info">
+				<p class="laulu-tiitel"></p>
+			</div>
+			<div class="nuppud">
+				<button type="button" class="eel-nupp">Eelmine</button>
+				<button type="button" class="paus-nupp">Kuula</button>
+				<button type="button" class="jarg-nupp">Järgmine</button>
+			</div>
+			<div class="edenemis-konteiner">
+				<input type="range" class="edenemis-riba" min="0" max="100" value="0">
+			</div>
+			<audio></audio>
+		</div>
 
 		<script src="javascript/muusika.js"></script>
+	</div>
 		<footer>
 			<ul class="icon_bar">
 				<li>
-					<a href="https://suriunderscore.bandcamp.com" class="icon"><img src="css/pildid/bandcamp.png" alt="bandcamp" width="60" height="60"></a>
+					<a href="https://suriunderscore.bandcamp.com" class="icon"><img src="css/pildid/bandcamp.png"
+							alt="bandcamp" width="60" height="60"></a>
 				</li>
 				<li>
-					<a href="https://rateyourmusic.com/artist/suri-1" class="icon"><img src="css/pildid/rateyourmusic.png" alt="rateyourmusic" width="60" height="60"></a>
+					<a href="https://rateyourmusic.com/artist/suri-1" class="icon"><img
+							src="css/pildid/rateyourmusic.png" alt="rateyourmusic" width="60" height="60"></a>
 				</li>
 			</ul>
-	</footer>
-	</body>
+		</footer>
+</body>
+
 </html>
