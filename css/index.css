@@ -1,15 +1,21 @@
 body, html{
-	background-image: url("pildid/bandcampbg.jpg");
+	background-image: 
+		linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("pildid/bandcampbg.jpg");
 	background-attachment: fixed;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items:center;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	position: relative;
 	width: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+a{
+	text-decoration: none;
 }
 
 h1 {
@@ -41,14 +47,17 @@ h2 a:hover {
 p {
 	color: #d521da;
 	font-size: larger;
-	text-align: center;
+	font-weight: 600;
 }
 
 #lehe_sisu {
-	max-width: 800px;
+	width: 800px;
 	margin: 0 auto;
 	padding: 20px;
-
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .icon{
@@ -107,4 +116,27 @@ header {
  
 header h1{
 	font-size: 60px;
+}
+
+#contain img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: relative;
+}
+
+#pildialbum {
+	align-self: center;
+	justify-content: center;
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+}
+
+#contain{
+	display: flex;
+	transition: transform 0.7s ease-in-out;
+	align-items: center;
 }
