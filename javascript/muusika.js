@@ -96,15 +96,15 @@ class MuusikaMangijaFN{
 
 //heartpartstrings järjend
 const heartpartstrings = [
-    { title: 'heart pa', src: '../muusika/suri - heart part strings - 01 heart pa.mp3' },
-    { title: 'sister to sister', src: '../muusika/suri - heart part strings - 02 sister to sister.mp3' },
-    { title: 'deaths', src: '../muusika/suri - heart part strings - 03 deaths.mp3' },
-    { title: 'BLEED', src: '../muusika/suri - heart part strings - 04 BLEED.mp3' },
-    { title: 'NULL', src: '../muusika/suri - heart part strings - 05 NULL.mp3' },
-    { title: 'we are', src: '../muusika/suri - heart part strings - 06 we are.mp3' },
-    { title: 'uni', src: '../muusika/suri - heart part strings - 07 uni.mp3' },
-    { title: 'rt strings', src: '../muusika/suri - heart part strings - 08 rt strings.mp3' },
-    { title: 'clarity', src: '../muusika/suri - heart part strings - 09 clarity.mp3' },
+    { title: 'heart pa', src: './muusika/suri - heart part strings - 01 heart pa.mp3' },
+    { title: 'sister to sister', src: './muusika/suri - heart part strings - 02 sister to sister.mp3' },
+    { title: 'deaths', src: './muusika/suri - heart part strings - 03 deaths.mp3' },
+    { title: 'BLEED', src: './muusika/suri - heart part strings - 04 BLEED.mp3' },
+    { title: 'NULL', src: './muusika/suri - heart part strings - 05 NULL.mp3' },
+    { title: 'we are', src: './muusika/suri - heart part strings - 06 we are.mp3' },
+    { title: 'uni', src: './muusika/suri - heart part strings - 07 uni.mp3' },
+    { title: 'rt strings', src: './muusika/suri - heart part strings - 08 rt strings.mp3' },
+    { title: 'clarity', src: './muusika/suri - heart part strings - 09 clarity.mp3' },
 ];
 
 //pleier nr.1
@@ -112,9 +112,9 @@ const heartPlayer = new MuusikaMangijaFN('heartpartstrings', heartpartstrings);
 
 //pearlname järjend
 const pearlname = [
-    { title: 'heavy rocks', src: '../muusika/suri - pearl name - 01 heavy rocks.mp3' },
-    { title: 'blink', src: '../muusika/suri - pearl name - 02 blink.mp3' },
-    { title: 'vanishing point', src: '../muusika/suri - pearl name - 03 vanishing point.mp3' },
+    { title: 'heavy rocks', src: './muusika/suri - pearl name - 01 heavy rocks.mp3' },
+    { title: 'blink', src: './muusika/suri - pearl name - 02 blink.mp3' },
+    { title: 'vanishing point', src: './muusika/suri - pearl name - 03 vanishing point.mp3' },
 ];
 
 //pleier nr.2
