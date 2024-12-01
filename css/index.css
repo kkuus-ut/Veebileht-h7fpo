@@ -90,17 +90,8 @@ footer {
 	align-items: center;
 }
 
-head {
-	background-image:url("pildid/bandcampheader.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 200px; 
-}
-
-
 header {
-    background-image: url('/css/pildid/bandcampheader.png');
+    background-image: url('pildid/bandcampheader.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
