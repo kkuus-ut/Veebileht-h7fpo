@@ -1,3 +1,4 @@
+// Kood on kirjutatud chatGPT koodist inspireeritult kasutades interneti ressursse
 document.addEventListener("DOMContentLoaded" , function() {
 
     const pildid = document.querySelector("#contain");
