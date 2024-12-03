@@ -1,3 +1,4 @@
+// Baas tehtud v0.dev abil, kirjutas React'is koodi, tõlkisin ise JS'i.
 // Muusika Mängija konstruktor, this.element kõik html failist 
 class MuusikaMangijaFN{
     constructor(albumId, laulud) {
